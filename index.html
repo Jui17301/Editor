@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/5b5f613ef9.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black m-10">
+  <header>
+    <h2 class="text-center text-4xl text-yellow-500 font-bold">My Text Editor</h2>
+  </header>
+  <main class="">
+    <section class="text-3xl flex justify-between p-3 my-5 rounded-3xl bg-yellow-800 items-center">
+      <div class="flex gap-x-8">
+        <i class="fa-solid fa-bold" id="bold-field"></i>
+        <i class="fa-solid fa-italic" id="italic-field"></i>
+        <i class="fa-solid fa-underline" id="underline-field"></i>
+      </div>
+      <div class="flex gap-x-8">
+        <i class="fa-solid fa-align-left" id="left-field"></i>
+        <i class="fa-solid fa-align-justify" id="justify-field"></i>
+        <i class="fa-solid fa-align-right" id="right-field"></i>
+        <i class="fa-solid fa-align-center" id="center-field"></i>
+      </div>
+      <div class="flex gap-x-8 items-center">
+        
+        
+        <img src="font-size.png" alt="" class="w-12" id="font">
+        <i class="fa-solid fa-align-center"></i>
+        <input type="color" id="favColor" name="favcolor" value="#ff0000"><br><br>
+  
+      </div>
+      
+    </section>
+    <hr>
+    <br>
+   <section class="bg-yellow-800 p-7">
+    <textarea name="" id="text-field" cols="185" rows="18" class="" placeholder="Enter Text.........."></textarea>
+   </section>
+  </main>
+<script src="index.js"></script>
+
+</body>
+</html>
